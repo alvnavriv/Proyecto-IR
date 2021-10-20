@@ -1,32 +1,121 @@
 <?xml version="1.0" encoding="iso-8859-1" ?>
 <rem:log xmlns:rem="http://rem.lsi.us.es">
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>PRG-0001</rem:owner><rem:date>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
 <rem:year>2021</rem:year>
 <rem:month>10</rem:month>
-<rem:day>19</rem:day>
+<rem:day>18</rem:day>
 </rem:date>
-<rem:description><![CDATA[Propiedad [Text] actualizada [Astidis es un empresa encargada de la distribución de bebidas, tanto alcoholicas como no alcoholicas, en la localidad de Ecija.
-
-Al reunirnos con el gerente del negocio nos señalo varios problemas que le gustaria resolver como por ejemplo, la utilización de papel para hacer pedidos o ayuda con la gestión de los creditos] -> [Astidis es un empresa encargada de la distribución de bebidas, tanto alcoholicas como no alcoholicas, en la localidad de Ecija.
-
-Al reunirnos con el gerente del negocio nos señalo varios problemas que le gustaria resolver como por ejemplo, la utilización de papel para hacer pedidos, lo que retrasaba mucho todas las actividades de la empresa, o ayuda con la gestión de los creditos, llevado por el gerente a mano. Tambien le gustaria tener diseñadas las rutas de reparto antes de comenzarlo, lo que agilizaria mucho el proceso.]]]></rem:description>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>PRG-0001</rem:owner><rem:date>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2021</rem:year>
 <rem:month>10</rem:month>
 <rem:day>19</rem:day>
 </rem:date>
-<rem:description><![CDATA[Propiedad [Text] actualizada [Astidis es un empresa encargada de la distribución de bebidas, tanto alcoholicas como no alcoholicas, en la localidad de Ecija.
-
-Al reunirnos con el gerente del negocio nos señalo varios problemas que le gustaria resolver como por ejemplo, la utilización de papel para hacer pedidos, lo que retrasaba mucho todas las actividades de la empresa, o ayuda con la gestión de los creditos, llevado por el gerente a mano. Tambien le gustaria tener diseñadas las rutas de reparto antes de comenzarlo, lo que agilizaria mucho el proceso.] -> [Astidis es un empresa encargada de la distribución de bebidas, tanto alcoholicas como no alcoholicas, en la localidad de Ecija.
-
-Al reunirnos con el gerente del negocio nos señalo varios problemas que le gustaria resolver como por ejemplo, la utilización de papel para hacer pedidos, lo que retrasaba mucho todas las actividades de la empresa, o ayuda con la gestión de los creditos, llevado por el gerente a mano. Tambien le gustaria tener diseñadas las rutas de reparto antes de comenzarlo, lo que agilizaria mucho el proceso.
-
-Lo que se busca con este proyecto diseñar un software sencillo que permita agilizar toda actividad de la empresa, ademas de tener la posibilidad de llegar nuevos clientes al tener mas tiempo para atender sus peticiones.]]]></rem:description>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento creado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [PRG-0002]  con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento creado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
@@ -42,36 +131,27 @@ Lo que se busca con este proyecto diseñar un software sencillo que permita agili
 <rem:owner>CHS-0004</rem:owner><rem:date>
 <rem:year>2021</rem:year>
 <rem:month>10</rem:month>
-<rem:day>18</rem:day>
+<rem:day>19</rem:day>
 </rem:date>
 <rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
 <rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2021</rem:year>
-<rem:month>10</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2021</rem:year>
-<rem:month>10</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>PRG-0001</rem:owner><rem:date>
 <rem:year>2021</rem:year>
 <rem:month>10</rem:month>
 <rem:day>19</rem:day>
 </rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [PRG-0002]  con 0 hijos y 1 cambios]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
@@ -84,12 +164,30 @@ Lo que se busca con este proyecto diseñar un software sencillo que permita agili
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:owner>CHS-0004</rem:owner><rem:date>
 <rem:year>2021</rem:year>
 <rem:month>10</rem:month>
 <rem:day>18</rem:day>
 </rem:date>
 <rem:description><![CDATA[Documento creado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>D</rem:type>
@@ -101,21 +199,129 @@ Lo que se busca con este proyecto diseñar un software sencillo que permita agili
 <rem:description><![CDATA[Eliminado el objeto [SEC-0001] 1 Introducción con 0 hijos y 1 cambios]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>C</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
 <rem:year>2021</rem:year>
 <rem:month>10</rem:month>
-<rem:day>18</rem:day>
+<rem:day>19</rem:day>
 </rem:date>
-<rem:description><![CDATA[Documento creado]]></rem:description>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>C</rem:type>
+<rem:type>S</rem:type>
 <rem:owner>CHS-0004</rem:owner><rem:date>
 <rem:year>2021</rem:year>
 <rem:month>10</rem:month>
-<rem:day>18</rem:day>
+<rem:day>19</rem:day>
 </rem:date>
-<rem:description><![CDATA[Documento creado]]></rem:description>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>OBJ-0003</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [OBJ-0003] Mejora en la gestión de créditos del proyecto C:\Users\Texma\Downloads\proyecto_IR_punto_1.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [STK-0001] Organización con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [STK-0001]  con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>OBJ-0002</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [OBJ-0002] Mejora en la gestión de cobros del proyecto C:\Users\Texma\Downloads\proyecto_IR_punto_1.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [SEC-0025]  con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 </rem:log>
