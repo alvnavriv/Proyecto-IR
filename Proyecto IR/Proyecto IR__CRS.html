@@ -29,8 +29,14 @@
 <div id="document_name">Documento de Requisitos del Sistema</div>
 <div id="document_version">Versión 1.0</div>
 <div id="document_date">Fecha 18/10/2021</div>
-<div id="document_prepared_for">Preparado para:<p class="tbd">?</p></div>
-<div id="document_prepared_by">Preparado por:<p class="tbd">?</p></div>
+<div id="document_prepared_for">Preparado para:<p>
+<a href="#ORG-0001">Astidis Bebidas SL</a>
+</p>
+</div>
+<div id="document_prepared_by">Preparado por:<p>
+<a href="#ORG-0002">IR-G2-ADT-02</a>
+</p>
+</div>
 </div>
 <div class="pagebreak"></div>
 <nav id="toc" role="navigation">
@@ -78,6 +84,36 @@
 <li>4.2.2 <a href="#SEC-0024">Descripción de procesos de negocio a implantar</a></li>
 </ul>
 </ul>
+<li>5 <a href="#SEC-0029">Descripción de los subsistemas del sistema a desarrollar</a></li>
+<li>6 <a href="#SEC-0030">Catálogo de requisitos del sistema a desarrollar</a></li>
+<ul class="toc_list">
+<li>6.1 <a href="#SEC-0031">Requisitos generales del sistema</a></li>
+<li>6.2 <a href="#SEC-0032">Casos de uso del sistema</a></li>
+<ul class="toc_list">
+<li>6.2.1 <a href="#SEC-0033">Diagramas de casos de uso del sistema</a></li>
+<li>6.2.2 <a href="#SEC-0034">Especificación de actores del sistema</a></li>
+<li>6.2.3 <a href="#SEC-0035">Especificación de casos de uso del sistema</a></li>
+</ul>
+<li>6.3 <a href="#SEC-0036">Requisitos funcionales del sistema</a></li>
+<ul class="toc_list">
+<li>6.3.1 <a href="#SEC-0037">Requisitos de información del sistema</a></li>
+<li>6.3.2 <a href="#SEC-0038">Requisitos de regla de negocio del sistema</a></li>
+<li>6.3.3 <a href="#SEC-0039">Requisitos de conducta del sistema</a></li>
+</ul>
+<li>6.4 <a href="#SEC-0040">Requisito no funcionales del sistema</a></li>
+<ul class="toc_list">
+<li>6.4.1 <a href="#SEC-0041">Requisitos de fiabilidad del sistema</a></li>
+<li>6.4.2 <a href="#SEC-0042">Requisitos de usabilidad del sistema</a></li>
+<li>6.4.3 <a href="#SEC-0043">Requisitos de mantenibilidad del sistema</a></li>
+<li>6.4.4 <a href="#SEC-0044">Requisito de eficiencia del sistema</a></li>
+<li>6.4.5 <a href="#SEC-0045">Requisitos de portabilidad del sistema</a></li>
+<li>6.4.6 <a href="#SEC-0046">Requisitos de seguridad del sistema</a></li>
+<li>6.4.7 <a href="#SEC-0047">Otros requisitos no funcionales del sistema</a></li>
+</ul>
+<li>6.5 <a href="#SEC-0048">Restricciones tecnicas del sistema</a></li>
+<li>6.6 <a href="#SEC-0049">Requisitos de integración del sistema</a></li>
+<li>6.7 <a href="#SEC-0050">Información de trazabilidad</a></li>
+</ul>
 </ul>
 </nav>
 <div class="pagebreak"></div>
@@ -123,13 +159,13 @@
 <tr>
 <th>
 <img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/organization.png" /> Organización</th>
-<th class="name_column" colspan="1">IR-G2-ADT-Astidis</th>
+<th class="name_column" colspan="1">IR-G2-ADT-02</th>
 </tr>
 </thead>
 <tr>
 <th>Dirección</th>
 <td colspan="1">
-<div id="ORG-0002-address-html" class=""><p>C/Natación 36</p></div>
+<div id="ORG-0002-address-html" class=""></div>
 </td>
 </tr>
 <tr>
@@ -157,7 +193,7 @@
 <tr>
 <th>Organización</th>
 <td>
-<a href="#ORG-0002">IR-G2-ADT-Astidis</a>
+<a href="#ORG-0002">IR-G2-ADT-02</a>
 </td>
 </tr>
 <tr>
@@ -186,7 +222,7 @@
 <tr>
 <th>Organización</th>
 <td>
-<a href="#ORG-0002">IR-G2-ADT-Astidis</a>
+<a href="#ORG-0002">IR-G2-ADT-02</a>
 </td>
 </tr>
 <tr>
@@ -215,7 +251,7 @@
 <tr>
 <th>Organización</th>
 <td>
-<a href="#ORG-0002">IR-G2-ADT-Astidis</a>
+<a href="#ORG-0002">IR-G2-ADT-02</a>
 </td>
 </tr>
 <tr>
@@ -250,7 +286,7 @@
 <tr>
 <th>Descripción</th>
 <td colspan="1">
-<div id="OBJ-0001-description-html" class=""><p>El sistema deberá facilitar a los trabajadores una manera más óptima de trabajar. En el aspecto de gestión de los pedidos, lo hacemos intercambiando los "antiguos" registros a papel de los pedidos, por registros digitalizados, de modo que a la hora de buscar cualquier pedido anotado, sea cuestión de introducir el nombre del <a href='#GLO-0027' class="rem_ref">cliente</a>, o el nombre de algún producto para que la búsqueda nos de de inmediato los resultados, mejorando así, tanto el tiempo de búsqueda, como la organización.</p></div>
+<div id="OBJ-0001-description-html" class=""><p>El sistema deberá Llevar un registro virtual de los pedidos de la empresa con el fin de facilita su búsqueda y por ende agilizar el trabajo.</p></div>
 </td>
 </tr>
 <tr>
@@ -286,7 +322,7 @@
 <tr>
 <th>Descripción</th>
 <td colspan="1">
-<div id="OBJ-0003-description-html" class=""><p>El sistema deberá ser capaz, usando los datos necesarios de la empresa, decidir si es viable o no la concesión de créditos a los distintos clientes. Lo hará basándose tanto en la información necesaria de la empresa, como en la del <a href='#GLO-0027' class="rem_ref">cliente</a>, como por ejemplo puede ser el historial de créditos concedidos a ese <a href='#GLO-0027' class="rem_ref">cliente</a> por la empresa (junto con el tiempo que ha tardado en abonar el importe), frecuencia con la que este recurre a la empresa para suministrarle,... De modo que valora tanto la fidelidad del <a href='#GLO-0027' class="rem_ref">cliente</a> como su capacidad de afrontar el pago, y en función de estos datos, nos indica si es factible ofrecerle más créditos, o deberían de ser denegados.</p></div>
+<div id="OBJ-0003-description-html" class=""><p>El sistema deberá llevar un registro virtual de los créditos que conceda la empresa a sus clientes.</p></div>
 </td>
 </tr>
 <tr>
@@ -322,7 +358,7 @@
 <tr>
 <th>Descripción</th>
 <td colspan="1">
-<div id="OBJ-0004-description-html" class=""><p>El sistema deberá usar la ubicación de los clientes más frecuentes, así como también la de los nuevos clientes, ya que al realizar su primer pedido a la empresa, es necesario que aporten ciertos datos para la facturación, y entrega, de modo que se dispone de su dirección. Usando esta información se debe ser capaz de crear una ruta de reparto que pase por todos los clientes recorriendo la menor distancia posible, de modo que se ahorre tiempo en el reparto. Esto se debe a que de otro modo, el repartidor tenía que ir consultando la hoja de pedidos y mirando el nombre de las calles, y establecer por sí mismo una ruta que podía o no, ser la más óptima, con este objetivo se busca que esa ruta sea siempre óptima.</p></div>
+<div id="OBJ-0004-description-html" class=""><p>El sistema deberá elegir la mejor ruta de reparto.</p></div>
 </td>
 </tr>
 <tr>
@@ -341,12 +377,28 @@
 <p>El gerente tambien nos pidio si le podiamos ayudar a gestionar los créditos de los clientes, para saber cuanto margen darle a cada uno sin que haya ningún problema.</p>
 <p>Los repartidores podrían tener una manera de hacer la ruta de la manera mas rápida posible.</p></div>
 </div>
+<div id="GRF-0009" class="figure">
+<img class="figure_image" src=".\imagenes\WhatsApp Image 2021-10-12 at 12.28.50.jpeg" />
+<p class="figure_caption">
+<span class="figure_caption_label">Figura 1:
+                 </span>
+<span id="GRF-0009-name-html" class="">Instalaciones</span>
+</p>
+</div>
 <h2 id="SEC-0009" class="section">2.2 Glosario de términos del dominio actual</h2>
 <div id="GLO-0022" class="glo">
 <div id="GLO-0022-text-html" class=""><p><strong>Albarán</strong>: Documento mercantil que acredita la entrega del pedido, debe ser firmada por el receptor y es entregada por el comercial.</p></div>
 </div>
 <div id="GLO-0023" class="glo">
 <div id="GLO-0023-text-html" class=""><p><strong>Almacén</strong>: Edificio donde se almacena la bebida.   </p></div>
+</div>
+<div id="GRF-0010" class="figure">
+<img class="figure_image" src=".\imagenes\WhatsApp Image 2021-10-12 at 12.26.36.jpeg" />
+<p class="figure_caption">
+<span class="figure_caption_label">Figura 2:
+                 </span>
+<span id="GRF-0010-name-html" class="">Álmacen</span>
+</p>
 </div>
 <div id="GLO-0027" class="glo">
 <div id="GLO-0027-text-html" class=""><p><strong>Cliente</strong>: Persona o empresa a la que nuestra organización proporciona servicios. El servicio mas habitual es la venta de bebidas.</p></div>
@@ -432,7 +484,7 @@
 <tr>
 <th>
 <img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/madeja_deb.png" /> DEB-0001</th>
-<th class="name_column" colspan="1">Tiempo poco aprovechado</th>
+<th class="name_column" colspan="1">Tiempo poco aprobechado</th>
 </tr>
 </thead>
 <tr>
@@ -443,7 +495,7 @@
 <tr>
 <th>Descripción</th>
 <td colspan="1">
-<div id="GLO-0019-text-html" class=""><p>El tiempo transcurrido desde que el comercial anota el pedido de un <a href='#GLO-0027' class="rem_ref">cliente</a>, hasta que este es recibido por administración, es demasiado largo, concretamente de varias horas, ya que una vez que anota el pedido, aún tiene que visitar más clientes y anotar sus pedidos. Pueden pasar horas hasta que finalmente sean entregados a administración y esta los organice para su reparto, de modo que si se realiza la toma de pedido un Martes por ejemplo, puede que sea ya el miércoles cuando se incluya en el lote de repartos. Mientras que usando una PDU correctamente, administración conoce instantáneamente el pedido y lo organiza para el reparto, pudiendo hacerse todo en el mismo día, incluso cuando esté con el siguiente <a href='#GLO-0027' class="rem_ref">cliente</a> puede ser que ya el pedido del anterior esté cargado para el reparto.</p></div>
+<div id="GLO-0019-text-html" class=""><p>El tiempo transcurrido desde que el comercial anota el pedido de un <a href='#GLO-0027' class="rem_ref">cliente</a>, hasta que este es recibido por administración, es demasiado largo(se recoje el pedido por la tarde y llega a administración al dia siguiente por la mañana).</p></div>
 </td>
 </tr>
 <tr>
@@ -460,7 +512,7 @@
 <tr>
 <th>
 <img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/madeja_deb.png" /> DEB-0002</th>
-<th class="name_column" colspan="1">Gestión de crédito</th>
+<th class="name_column" colspan="1">Gestión de credito</th>
 </tr>
 </thead>
 <tr>
@@ -540,40 +592,13 @@
 </div>
 <h2 id="SEC-0014" class="section">3.2 Modelos de procesos de negocio actuales</h2>
 <h3 id="SEC-0015" class="section">3.2.1 Descripción de actores de negocio actuales</h3>
-<div id="PRG-0010">
-<div id="PRG-0010-text-html" class=""><p><strong>Jefe de <a href='#GLO-0023' class="rem_ref">Almacén</a></strong>:Se encarga de la organización del <a href='#GLO-0023' class="rem_ref">almacén</a> y prepara el pedido del <a href='#GLO-0027' class="rem_ref">cliente</a>.</p></div>
-</div>
-<div id="PRG-0011">
-<div id="PRG-0011-text-html" class=""><p><strong>Administración</strong>:Se encarga de la contabilidad de la empresa y de preparar los albaranes.</p></div>
-</div>
-<div id="PRG-0012">
-<div id="PRG-0012-text-html" class=""><p><strong>Gerente</strong>:Compra los productos que tiene pensado vender y da <a href='#GLO-0024' class="rem_ref">crédito</a> a los clientes.</p></div>
-</div>
-<div id="PRG-0013">
-<div id="PRG-0013-text-html" class=""><p><strong>Comercial</strong>:Habla con el <a href='#GLO-0027' class="rem_ref">cliente</a> para realizar los pedidos y cobra los pedidos de la semana anterior.</p></div>
-</div>
-<h3 id="SEC-0025" class="section">3.2.2 Descripción de procesos de negocio actuales</h3>
-<div id="PRG-0043">
-<div id="PRG-0043-text-html" class=""><p><strong>Toma del Producto</strong></p></div>
-</div>
-<div id="GRF-0001" class="figure">
-<img class="figure_image" src=".\imagenes\Toma de producto.png" />
-<p class="figure_caption">
-<span class="figure_caption_label">Figura 1:
-                 </span>
-<span id="GRF-0001-name-html" class="">Toma del Producto</span>
-</p>
-</div>
-<div id="PRG-0039">
-<div id="PRG-0039-text-html" class=""><p><strong>Toma del Pedido</strong></p></div>
-</div>
 <div id="GLO-0049">
 <table class="madeja_object remus_table">
 <thead>
 <tr>
 <th>
-<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/madeja_pna.png" /> PNA-0001</th>
-<th class="name_column" colspan="1">Toma del pedido</th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/madeja_ana.png" /> ANA-0001</th>
+<th class="name_column" colspan="1">Jefe de Almacén</th>
 </tr>
 </thead>
 <tr>
@@ -584,7 +609,7 @@
 <tr>
 <th>Descripción</th>
 <td colspan="1">
-<div id="GLO-0049-text-html" class=""><p>El proceso de toma del pedido comienza cuando el comercial llega a un establecimiento para anotar los pedidos que el <a href='#GLO-0027' class="rem_ref">cliente</a> necesite en ese porte. En caso de que el <a href='#GLO-0027' class="rem_ref">cliente</a> necesite suministros, el comercial le muestra una hoja donde aparecen reflejadas las nuevas ofertas y productos nuevos que la empresa haya adquirido del proveedor, por si estas le interesan al <a href='#GLO-0027' class="rem_ref">cliente</a>. El <a href='#GLO-0027' class="rem_ref">cliente</a> hace su pedido según sus necesidades. En caso de ser urgente, es decir, que necesite el pedido lo antes posible, el comercial directamente llama por teléfono a administración para hacérselo saber y que lo preparen con toda prioridad, en caso de no ser prioritario, queda anotado para cuando se prepare el camión de reparto. Finalmente una vez concluido la toma de pedidos, el comercial abandona el local del <a href='#GLO-0027' class="rem_ref">cliente</a> y visita el siguiente.</p></div>
+<div id="GLO-0049-text-html" class=""><p>Se encarga de la organización del <a href='#GLO-0023' class="rem_ref">almacén</a> y prepara el pedido del <a href='#GLO-0027' class="rem_ref">cliente</a>.</p></div>
 </td>
 </tr>
 <tr>
@@ -595,10 +620,137 @@
 </tr>
 </table>
 </div>
+<div id="GLO-0050">
+<table class="madeja_object remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/madeja_ana.png" /> ANA-0002</th>
+<th class="name_column" colspan="1">Administración</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (27/10/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="GLO-0050-text-html" class=""><p>Se encarga de la contabilidad de la empresa y de preparar los albaranes.</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="GLO-0050-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="GLO-0051">
+<table class="madeja_object remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/madeja_ana.png" /> ANA-0003</th>
+<th class="name_column" colspan="1">Gerente</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (27/10/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="GLO-0051-text-html" class=""><p>Compra los productos que tiene pensado vender y da <a href='#GLO-0024' class="rem_ref">crédito</a> a los clientes.</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="GLO-0051-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="GLO-0052">
+<table class="madeja_object remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/madeja_ana.png" /> ANA-0004</th>
+<th class="name_column" colspan="1">Comercial</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (27/10/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="GLO-0052-text-html" class=""><p>Habla con el <a href='#GLO-0027' class="rem_ref">cliente</a> para realizar los pedidos y cobra los pedidos de la semana anterior.</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="GLO-0052-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<h3 id="SEC-0025" class="section">3.2.2 Descripción de procesos de negocio actuales</h3>
+<div id="PRG-0043">
+<div id="PRG-0043-text-html" class=""><p><strong>Toma del Producto</strong></p></div>
+</div>
+<div id="GLO-0053">
+<table class="madeja_object remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/madeja_pna.png" /> PNA-0001</th>
+<th class="name_column" colspan="1">Toma del Producto</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (27/10/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="GLO-0053-text-html" class=""><p>Cuando se revisa el inventario, el gerente revisa las bebidas que tiene disponible y las que se esta quedando sin stock o no quedan. Si se esta quedando sin stock, realiza un pedido a empresas exteriores para reabastecer la empresa de dicha bebida, si sigue habiendo existencias de dicha bebida el flujo de trabajo puede continuar y el comercial se dirige a el local del <a href='#GLO-0027' class="rem_ref">cliente</a> donde toma el pedido de la semana y cobra el pedido de la semana anterior, dicho pedido se pasa a administración la cual hace el albaran para preparar el pedido.</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="GLO-0053-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="GRF-0001" class="figure">
+<img class="figure_image" src=".\imagenes\Toma de producto.png" />
+<p class="figure_caption">
+<span class="figure_caption_label">Figura 3:
+                 </span>
+<span id="GRF-0001-name-html" class="">Toma del Producto</span>
+</p>
+</div>
+<div id="PRG-0039">
+<div id="PRG-0039-text-html" class=""><p><strong>Toma del Pedido</strong></p></div>
+</div>
 <div id="GRF-0002" class="figure">
 <img class="figure_image" src=".\imagenes\toma del pedido actual.png" />
 <p class="figure_caption">
-<span class="figure_caption_label">Figura 2:
+<span class="figure_caption_label">Figura 4:
                  </span>
 <span id="GRF-0002-name-html" class="">Toma del Pedido</span>
 </p>
@@ -606,10 +758,38 @@
 <div id="PRG-0040">
 <div id="PRG-0040-text-html" class=""><p><strong>Reparto de Pedido</strong></p></div>
 </div>
+<div id="GLO-0054">
+<table class="madeja_object remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/madeja_pna.png" /> PNA-0003</th>
+<th class="name_column" colspan="1">Reparto del Pedido</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (27/10/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="GLO-0054-text-html" class=""><p>Una vez realizado el <a href='#GLO-0022' class="rem_ref">albarán</a>, este es pasado al jefe de <a href='#GLO-0023' class="rem_ref">almacén</a> para que prepare el pedido a enviar. Una vez listo el repatidor lo recoje en el almacen y lo llevan en furgoneta al local del <a href='#GLO-0027' class="rem_ref">cliente</a> para ser entregado.</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="GLO-0054-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
 <div id="GRF-0003" class="figure">
 <img class="figure_image" src=".\imagenes\Preparación y entrega del producto.png" />
 <p class="figure_caption">
-<span class="figure_caption_label">Figura 3:
+<span class="figure_caption_label">Figura 5:
                  </span>
 <span id="GRF-0003-name-html" class="">Reparto del Pedido</span>
 </p>
@@ -617,10 +797,38 @@
 <div id="PRG-0044">
 <div id="PRG-0044-text-html" class=""><p><strong>Flujo de <a href='#GLO-0022' class="rem_ref">Albarán</a></strong></p></div>
 </div>
+<div id="GLO-0055">
+<table class="madeja_object remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/madeja_pna.png" /> PNA-0004</th>
+<th class="name_column" colspan="1">Flujo de Albarán</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (27/10/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="GLO-0055-text-html" class=""><p>Una vez entregado el pedido el comercial le entrega el albaran (3 hojas,amarilla, blanca y rosa)  al <a href='#GLO-0027' class="rem_ref">cliente</a> y este lo firma y le devuleve las hojas amarilla y blanca al comercial, quedandose el <a href='#GLO-0027' class="rem_ref">cliente</a> con la amarilla en señal de que ha recibido el pedido. Las 2 hojas restantes pasan a administración que las guardan hasta que se vaya a realizar el cobro del pedido la semana siguiente. Al cabo de una semana el comercial cobra el pedido pendiente, entrega el albaran blanco al <a href='#GLO-0027' class="rem_ref">cliente</a> como resguardo de que el pedido ha sido pagado y el comercial devuelve el albaran rosa restante a administración para posteriormente realizar la factura.</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="GLO-0055-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
 <div id="GRF-0004" class="figure">
 <img class="figure_image" src=".\imagenes\Flujo de albarán.png" />
 <p class="figure_caption">
-<span class="figure_caption_label">Figura 4:
+<span class="figure_caption_label">Figura 6:
                  </span>
 <span id="GRF-0004-name-html" class="">Flujo de <a href='#GLO-0022' class="rem_ref">Albarán</a></span>
 </p>
@@ -643,7 +851,7 @@
 <tr>
 <th>
 <img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/madeja_hu.png" /> HU-0001</th>
-<th class="name_column" colspan="1">Listado de bebidas</th>
+<th class="name_column" colspan="1">Pedido de cliente</th>
 </tr>
 </thead>
 <tr>
@@ -757,22 +965,40 @@
 </tr>
 </table>
 </div>
+<div id="GLO-0056">
+<table class="madeja_object remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/madeja_hu.png" /> HU-0005</th>
+<th class="name_column" colspan="1">Pagos con tarjeta</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (27/10/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="GLO-0056-text-html" class=""><p><strong>Como</strong> empleada de administración,<br />
+<strong>quiero</strong> que los pagos sean realizados de manera telematica,<br />
+<strong>para</strong> optimizar el tiempo de trabajo.   </p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="GLO-0056-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
 <h2 id="SEC-0022" class="section">4.2 Modelos de procesos de negocio a implantar</h2>
 <h3 id="SEC-0023" class="section">4.2.1 Descripción de actores de negocio a implantar</h3>
 <div id="PRG-0034">
-<div id="PRG-0034-text-html" class=""><p><strong>Gerente</strong>: Compra los productos que tiene pensado vender y da <a href='#GLO-0024' class="rem_ref">crédito</a> a los clientes basandose en un software que le ayuda a decidir el máximo sin arriesgarse a perder beneficios.</p></div>
-</div>
-<div id="PRG-0035">
-<div id="PRG-0035-text-html" class=""><p><strong>Administración</strong>:Se encarga de la contabilidad de la empresa y de preparar los albaranes.</p></div>
-</div>
-<div id="PRG-0036">
-<div id="PRG-0036-text-html" class=""><p><strong>Jefe de Almacen</strong>:Se encarga de organizar el almacen y preparar el pedido del <a href='#GLO-0027' class="rem_ref">cliente</a>.</p></div>
-</div>
-<div id="PRG-0037">
-<div id="PRG-0037-text-html" class=""><p><strong>Comercial</strong>: Se desplaza al local del <a href='#GLO-0027' class="rem_ref">cliente</a> y le proporciona una PDA donde realizar el pedido, ademas de efectuar el cobro del pedido anterior.</p></div>
-</div>
-<div id="PRG-0038">
-<div id="PRG-0038-text-html" class=""><p><strong>Repartidor</strong>:Reparte los pedidos a los clientes y entrega el albaran al <a href='#GLO-0027' class="rem_ref">cliente</a>.</p></div>
+<div id="PRG-0034-text-html" class=""><p>Los actores de negocio a implementar son los mismos que los actores de negocio actuales</p></div>
 </div>
 <h3 id="SEC-0024" class="section">4.2.2 Descripción de procesos de negocio a implantar</h3>
 <div id="PRG-0045">
@@ -781,7 +1007,7 @@
 <div id="GRF-0005" class="figure">
 <img class="figure_image" src=".\imagenes\Toma de producto propuesta.png" />
 <p class="figure_caption">
-<span class="figure_caption_label">Figura 5:
+<span class="figure_caption_label">Figura 7:
                  </span>
 <span id="GRF-0005-name-html" class="">Toma del producto propuesta</span>
 </p>
@@ -792,7 +1018,7 @@
 <div id="GRF-0007" class="figure">
 <img class="figure_image" src=".\imagenes\toma del pedido propuesta.png" />
 <p class="figure_caption">
-<span class="figure_caption_label">Figura 6:
+<span class="figure_caption_label">Figura 8:
                  </span>
 <span id="GRF-0007-name-html" class="">Toma del pedido propuesta</span>
 </p>
@@ -803,7 +1029,7 @@
 <div id="GRF-0006" class="figure">
 <img class="figure_image" src=".\imagenes\Preparación y entrega del producto propuesto.png" />
 <p class="figure_caption">
-<span class="figure_caption_label">Figura 7:
+<span class="figure_caption_label">Figura 9:
                  </span>
 <span id="GRF-0006-name-html" class="">Preparación del producto propuesta</span>
 </p>
@@ -814,23 +1040,1592 @@
 <div id="GRF-0008" class="figure">
 <img class="figure_image" src=".\imagenes\Flujo de albarán propuesto 2.0.png" />
 <p class="figure_caption">
-<span class="figure_caption_label">Figura 8:
+<span class="figure_caption_label">Figura 10:
                  </span>
 <span id="GRF-0008-name-html" class="">Flujo de albaran propuesta</span>
 </p>
 </div>
-<h1 id="SEC-0026" class="appendix">A Actas de reuniones</h1>
-<div id="PRG-0041">
-<div id="PRG-0041-text-html" class=""><p><strong>Primera Reunión</strong> (11/10/2021)</p>
-<p>En esta primera reunión nos reunimos con el gerente de la empresa que nos explico el funcionamiento de esta.</p>
-<p>Nos hablo de como estaba dividida, su funcionamineto y los problemas y las soluciones que les gustaria aplicar.</p>
-<p>La entrevista duro alrededor de 1 hora y media.</p></div>
+<h1 id="SEC-0029" class="section">5 Descripción de los subsistemas del sistema a desarrollar</h1>
+<div id="PRG-0057">
+<div id="PRG-0057-text-html" class=""><p><strong>Subsistema de usuarios</strong>:  encargado de  gestionar los usuarios del sistema.</p></div>
 </div>
-<div id="PRG-0042">
-<div id="PRG-0042-text-html" class=""><p><strong>Segunda Reunión</strong> (23/10//2021)</p>
-<p>En esta entrevista nos reunimos con la administradora de la empresa.</p>
-<p>Nos resolvió algunas dudas surgidas en la entrevista anterior, nos hablo de las fortalezas y debilidades de la empresa y nos hablo del entorno hardware y software utilizado.</p>
-<p>La entrevista duro 1 hora y 25 minutos de manera online.</p></div>
+<div id="PRG-0058">
+<div id="PRG-0058-text-html" class=""><p><strong>Subsistema de clientes</strong>: encargado de gestionar los clientes de la empresa y pedidos anteriores.</p></div>
+</div>
+<div id="PRG-0059">
+<div id="PRG-0059-text-html" class=""><p><strong>Subsistema de pedidos</strong>: encargado en gestionar los pedidos de los clientes y las ofertas actuales.</p></div>
+</div>
+<h1 id="SEC-0030" class="section">6 Catálogo de requisitos del sistema a desarrollar</h1>
+<h2 id="SEC-0031" class="section">6.1 Requisitos generales del sistema</h2>
+<h2 id="SEC-0032" class="section">6.2 Casos de uso del sistema</h2>
+<h3 id="SEC-0033" class="section">6.2.1 Diagramas de casos de uso del sistema</h3>
+<h3 id="SEC-0034" class="section">6.2.2 Especificación de actores del sistema</h3>
+<div id="ACT-0001">
+<table class="actor remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/actor.png" /> ACT-0001</th>
+<th class="name_column" colspan="1">Gerente de la empresa</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (08/11/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="ACT-0001-actorRole-html" class=""><p>Este actor representa al mayor dirigente de la empresa, en el recae la máxima responsabilidad..</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="ACT-0001-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="ACT-0002">
+<table class="actor remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/actor.png" /> ACT-0002</th>
+<th class="name_column" colspan="1">Cliente</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (08/11/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="ACT-0002-actorRole-html" class=""><p>Este actor representa un <a href='#GLO-0027' class="rem_ref">cliente</a> registrado de la empresa.</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="ACT-0002-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="ACT-0003">
+<table class="actor remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/actor.png" /> ACT-0003</th>
+<th class="name_column" colspan="1">nuevo cliente</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (08/11/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="ACT-0003-actorRole-html" class=""><p>Este actor representa a un <a href='#GLO-0027' class="rem_ref">cliente</a> no registrado de la empresa.</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="ACT-0003-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="ACT-0004">
+<table class="actor remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/actor.png" /> ACT-0004</th>
+<th class="name_column" colspan="1">Proovedor</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (08/11/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="ACT-0004-actorRole-html" class=""><p>Este actor representa a un proovedor de mercancias para la empresa.</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="ACT-0004-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="ACT-0005">
+<table class="actor remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/actor.png" /> ACT-0005</th>
+<th class="name_column" colspan="1">Administrador</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (08/11/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="ACT-0005-actorRole-html" class=""><p>Este actor representa a la parte de contabilidad de la empresa.</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="ACT-0005-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="ACT-0006">
+<table class="actor remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/actor.png" /> ACT-0006</th>
+<th class="name_column" colspan="1">Jefe de almacén</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (08/11/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="ACT-0006-actorRole-html" class=""><p>Este actor representa a la persona ocupada de la organización del <a href='#GLO-0023' class="rem_ref">almacén</a> y la preparación de pedidos.</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="ACT-0006-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="ACT-0007">
+<table class="actor remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/actor.png" /> ACT-0007</th>
+<th class="name_column" colspan="1">Comercial</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (08/11/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="ACT-0007-actorRole-html" class=""><p>Este actor representa a la parte que se ocupa de hablar con los clientes y tomar los pedidos y realizar los cobros.</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="ACT-0007-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<h3 id="SEC-0035" class="section">6.2.3 Especificación de casos de uso del sistema</h3>
+<div id="UC-0001">
+<table class="use_case remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/useCase.png" /> UC-0001</th>
+<th class="name_column" colspan="2">Añadir producto </th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="2">1.0 (08/11/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="2"><div id="UC-0001--html" class=""><p>El sistema deberá comportarse tal como se describe en el siguiente caso de uso cuando añada un nuevo producto al catálogo actual. </p></div>
+</td>
+</tr>
+<tr>
+<th>Precondición</th>
+<td colspan="2">
+<div id="UC-0001-precondition-html" class=""><p>Producto no registrado</p></div>
+</td>
+</tr>
+<tr>
+<th rowspan="4">Secuencia normal</th>
+<th class="step_number_column">Paso</th>
+<th class="step_action_column">Acción</th>
+</tr>
+<tr id="STP-0039">
+<th class="step_number">1</th>
+<td colspan="1">
+<div id="STP-0039--html" class=""><p>El actor     <a href="#ACT-0001">Gerente de la empresa (ACT-0001)</a>     Quiere añadir un producto</p></div>
+</td>
+</tr>
+<tr id="STP-0040">
+<th class="step_number">2</th>
+<td colspan="1">
+<div id="STP-0040--html" class=""><p>El actor     <a href="#ACT-0001">Gerente de la empresa (ACT-0001)</a>     añade los datos del producto en el sistema</p></div>
+</td>
+</tr>
+<tr id="STP-0041">
+<th class="step_number">3</th>
+<td colspan="1">
+<div id="STP-0041--html" class=""><p>El sistema añade el producto al catálogo</p></div>
+</td>
+</tr>
+<tr>
+<th>Postcondición</th>
+<td colspan="2">
+<div id="UC-0001-postcondition-html" class=""><p>Producto añadido al catálogo</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="2">
+<div id="UC-0001-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="UC-0002">
+<table class="use_case remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/useCase.png" /> UC-0002</th>
+<th class="name_column" colspan="2">Actualizar producto </th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="2">1.0 (08/11/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="2"><div id="UC-0002--html" class=""><p>El sistema deberá comportarse tal como se describe en el siguiente caso de uso cuando actualiza un nuevo producto del catálogo actual. </p></div>
+</td>
+</tr>
+<tr>
+<th>Precondición</th>
+<td colspan="2">
+<div id="UC-0002-precondition-html" class=""><p>Producto con información desactualizada</p></div>
+</td>
+</tr>
+<tr>
+<th rowspan="4">Secuencia normal</th>
+<th class="step_number_column">Paso</th>
+<th class="step_action_column">Acción</th>
+</tr>
+<tr id="STP-0042">
+<th class="step_number">1</th>
+<td colspan="1">
+<div id="STP-0042--html" class=""><p>El actor     <a href="#ACT-0001">Gerente de la empresa (ACT-0001)</a>     Quiere actualizar un producto</p></div>
+</td>
+</tr>
+<tr id="STP-0043">
+<th class="step_number">2</th>
+<td colspan="1">
+<div id="STP-0043--html" class=""><p>El actor     <a href="#ACT-0001">Gerente de la empresa (ACT-0001)</a>     cambia los datos del producto en el sistema</p></div>
+</td>
+</tr>
+<tr id="STP-0044">
+<th class="step_number">3</th>
+<td colspan="1">
+<div id="STP-0044--html" class=""><p>El sistema actualiza el producto del catálogo</p></div>
+</td>
+</tr>
+<tr>
+<th>Postcondición</th>
+<td colspan="2">
+<div id="UC-0002-postcondition-html" class=""><p>Producto actualizado</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="2">
+<div id="UC-0002-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="UC-0003">
+<table class="use_case remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/useCase.png" /> UC-0003</th>
+<th class="name_column" colspan="2">Elimina producto </th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="2">1.0 (08/11/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="2"><div id="UC-0003--html" class=""><p>El sistema deberá comportarse tal como se describe en el siguiente caso de uso cuando elimina un nuevo producto del catálogo actual. </p></div>
+</td>
+</tr>
+<tr>
+<th>Precondición</th>
+<td colspan="2">
+<div id="UC-0003-precondition-html" class=""><p>Producto en catálogo</p></div>
+</td>
+</tr>
+<tr>
+<th rowspan="3">Secuencia normal</th>
+<th class="step_number_column">Paso</th>
+<th class="step_action_column">Acción</th>
+</tr>
+<tr id="STP-0045">
+<th class="step_number">1</th>
+<td colspan="1">
+<div id="STP-0045--html" class=""><p>El actor     <a href="#ACT-0001">Gerente de la empresa (ACT-0001)</a>     elimina un producto</p></div>
+</td>
+</tr>
+<tr id="STP-0047">
+<th class="step_number">2</th>
+<td colspan="1">
+<div id="STP-0047--html" class=""><p>El sistema actualiza el producto del catálogo</p></div>
+</td>
+</tr>
+<tr>
+<th>Postcondición</th>
+<td colspan="2">
+<div id="UC-0003-postcondition-html" class=""><p>Producto eliminado de catálogo</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="2">
+<div id="UC-0003-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="UC-0004">
+<table class="use_case remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/useCase.png" /> UC-0004</th>
+<th class="name_column" colspan="2">Añadir pedido </th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="2">1.0 (08/11/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="2"><div id="UC-0004--html" class=""><p>El sistema deberá comportarse tal como se describe en el siguiente caso de uso cuando se realiza un nuevo pedido. </p></div>
+</td>
+</tr>
+<tr>
+<th>Precondición</th>
+<td colspan="2">
+<div id="UC-0004-precondition-html" class=""><p>Se quiere realizar un pedido por falta de stock</p></div>
+</td>
+</tr>
+<tr>
+<th rowspan="4">Secuencia normal</th>
+<th class="step_number_column">Paso</th>
+<th class="step_action_column">Acción</th>
+</tr>
+<tr id="STP-0048">
+<th class="step_number">1</th>
+<td colspan="1">
+<div id="STP-0048--html" class=""><p>El actor     <a href="#ACT-0001">Gerente de la empresa (ACT-0001)</a>     solicita un pedido a uno de los proovedores</p></div>
+</td>
+</tr>
+<tr id="STP-0049">
+<th class="step_number">2</th>
+<td colspan="1">
+<div id="STP-0049--html" class=""><p>El actor     <a href="#ACT-0001">Gerente de la empresa (ACT-0001)</a>     envia el pedido que desea realizar al proovedor</p></div>
+</td>
+</tr>
+<tr id="STP-0051">
+<th class="step_number">3</th>
+<td colspan="1">
+<div id="STP-0051--html" class=""><p>El sistema El sistema registra el pedido</p></div>
+</td>
+</tr>
+<tr>
+<th>Postcondición</th>
+<td colspan="2">
+<div id="UC-0004-postcondition-html" class=""><p>El pedido ha sido realizado</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="2">
+<div id="UC-0004-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="UC-0005">
+<table class="use_case remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/useCase.png" /> UC-0005</th>
+<th class="name_column" colspan="2">Editar pedido </th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="2">1.0 (08/11/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="2"><div id="UC-0005--html" class=""><p>El sistema deberá comportarse tal como se describe en el siguiente caso de uso cuando se edite un pedido. </p></div>
+</td>
+</tr>
+<tr>
+<th>Precondición</th>
+<td colspan="2">
+<div id="UC-0005-precondition-html" class=""><p>Se quiere editar un pedido ya registrado</p></div>
+</td>
+</tr>
+<tr>
+<th rowspan="4">Secuencia normal</th>
+<th class="step_number_column">Paso</th>
+<th class="step_action_column">Acción</th>
+</tr>
+<tr id="STP-0052">
+<th class="step_number">1</th>
+<td colspan="1">
+<div id="STP-0052--html" class=""><p>El actor     <a href="#ACT-0001">Gerente de la empresa (ACT-0001)</a>     solicita modificar el pedido</p></div>
+</td>
+</tr>
+<tr id="STP-0053">
+<th class="step_number">2</th>
+<td colspan="1">
+<div id="STP-0053--html" class=""><p>El actor     <a href="#ACT-0001">Gerente de la empresa (ACT-0001)</a>     actualiza el pedido</p></div>
+</td>
+</tr>
+<tr id="STP-0054">
+<th class="step_number">3</th>
+<td colspan="1">
+<div id="STP-0054--html" class=""><p>El sistema El sistema registra los nuevos datos del pedido</p></div>
+</td>
+</tr>
+<tr>
+<th>Postcondición</th>
+<td colspan="2">
+<div id="UC-0005-postcondition-html" class=""><p>El pedido ha sido actualizado</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="2">
+<div id="UC-0005-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="UC-0006">
+<table class="use_case remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/useCase.png" /> UC-0006</th>
+<th class="name_column" colspan="2">Eliminar pedido </th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="2">1.0 (08/11/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="2"><div id="UC-0006--html" class=""><p>El sistema deberá comportarse tal como se describe en el siguiente caso de uso cuando elimina un pedido. </p></div>
+</td>
+</tr>
+<tr>
+<th>Precondición</th>
+<td colspan="2">
+<div id="UC-0006-precondition-html" class=""><p>Se quiere cancelar un pedidoo</p></div>
+</td>
+</tr>
+<tr>
+<th rowspan="3">Secuencia normal</th>
+<th class="step_number_column">Paso</th>
+<th class="step_action_column">Acción</th>
+</tr>
+<tr id="STP-0055">
+<th class="step_number">1</th>
+<td colspan="1">
+<div id="STP-0055--html" class=""><p>El actor     <a href="#ACT-0001">Gerente de la empresa (ACT-0001)</a>     solicita eliminar un pedido</p></div>
+</td>
+</tr>
+<tr id="STP-0057">
+<th class="step_number">2</th>
+<td colspan="1">
+<div id="STP-0057--html" class=""><p>El sistema El sistema elimina el pedido</p></div>
+</td>
+</tr>
+<tr>
+<th>Postcondición</th>
+<td colspan="2">
+<div id="UC-0006-postcondition-html" class=""><p>El pedido ha sido cancelado</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="2">
+<div id="UC-0006-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="UC-0007">
+<table class="use_case remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/useCase.png" /> UC-0007</th>
+<th class="name_column" colspan="2">Añadir cliente </th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="2">1.0 (08/11/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="2"><div id="UC-0007--html" class=""><p>El sistema deberá comportarse tal como se describe en el siguiente caso de uso cuando un <a href='#GLO-0027' class="rem_ref">cliente</a> nuevo quiere registrarse. </p></div>
+</td>
+</tr>
+<tr>
+<th>Precondición</th>
+<td colspan="2">
+<div id="UC-0007-precondition-html" class=""><p><a href='#GLO-0027' class="rem_ref">Cliente</a> no registrado</p></div>
+</td>
+</tr>
+<tr>
+<th rowspan="4">Secuencia normal</th>
+<th class="step_number_column">Paso</th>
+<th class="step_action_column">Acción</th>
+</tr>
+<tr id="STP-0058">
+<th class="step_number">1</th>
+<td colspan="1">
+<div id="STP-0058--html" class=""><p>El actor     <a href="#ACT-0003">nuevo cliente (ACT-0003)</a>     entra en la páguina de registro</p></div>
+</td>
+</tr>
+<tr id="STP-0059">
+<th class="step_number">2</th>
+<td colspan="1">
+<div id="STP-0059--html" class=""><p>El actor     <a href="#ACT-0003">nuevo cliente (ACT-0003)</a>     rellena los datos de registro</p></div>
+</td>
+</tr>
+<tr id="STP-0060">
+<th class="step_number">3</th>
+<td colspan="1">
+<div id="STP-0060--html" class=""><p>El sistema registra al nuevo usuario</p></div>
+</td>
+</tr>
+<tr>
+<th>Postcondición</th>
+<td colspan="2">
+<div id="UC-0007-postcondition-html" class=""><p><a href='#GLO-0027' class="rem_ref">Cliente</a> registrado</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="2">
+<div id="UC-0007-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="UC-0008">
+<table class="use_case remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/useCase.png" /> UC-0008</th>
+<th class="name_column" colspan="2">Editar cliente </th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="2">1.0 (08/11/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="2"><div id="UC-0008--html" class=""><p>El sistema deberá comportarse tal como se describe en el siguiente caso de uso cuando se editan los datos de un <a href='#GLO-0027' class="rem_ref">cliente</a> ya registrado. </p></div>
+</td>
+</tr>
+<tr>
+<th>Precondición</th>
+<td colspan="2">
+<div id="UC-0008-precondition-html" class=""><p>El <a href='#GLO-0027' class="rem_ref">cliente</a> quiere cambiar sus datos</p></div>
+</td>
+</tr>
+<tr>
+<th rowspan="4">Secuencia normal</th>
+<th class="step_number_column">Paso</th>
+<th class="step_action_column">Acción</th>
+</tr>
+<tr id="STP-0061">
+<th class="step_number">1</th>
+<td colspan="1">
+<div id="STP-0061--html" class=""><p>El actor     <a href="#ACT-0002">Cliente (ACT-0002)</a>     entra su perfil</p></div>
+</td>
+</tr>
+<tr id="STP-0062">
+<th class="step_number">2</th>
+<td colspan="1">
+<div id="STP-0062--html" class=""><p>El actor     <a href="#ACT-0002">Cliente (ACT-0002)</a>     Cambia los datos que precisan cambio</p></div>
+</td>
+</tr>
+<tr id="STP-0063">
+<th class="step_number">3</th>
+<td colspan="1">
+<div id="STP-0063--html" class=""><p>El sistema actualiza la información del <a href='#GLO-0027' class="rem_ref">cliente</a></p></div>
+</td>
+</tr>
+<tr>
+<th>Postcondición</th>
+<td colspan="2">
+<div id="UC-0008-postcondition-html" class=""><p>Se han modificado los datos del <a href='#GLO-0027' class="rem_ref">cliente</a></p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="2">
+<div id="UC-0008-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="UC-0009">
+<table class="use_case remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/useCase.png" /> UC-0009</th>
+<th class="name_column" colspan="2">Eliminar cliente </th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="2">1.0 (08/11/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="2"><div id="UC-0009--html" class=""><p>El sistema deberá comportarse tal como se describe en el siguiente caso de uso cuando se elimine un <a href='#GLO-0027' class="rem_ref">cliente</a> registrado. </p></div>
+</td>
+</tr>
+<tr>
+<th>Precondición</th>
+<td colspan="2">
+<div id="UC-0009-precondition-html" class=""><p><a href='#GLO-0027' class="rem_ref">Cliente</a> registrado</p></div>
+</td>
+</tr>
+<tr>
+<th rowspan="4">Secuencia normal</th>
+<th class="step_number_column">Paso</th>
+<th class="step_action_column">Acción</th>
+</tr>
+<tr id="STP-0064">
+<th class="step_number">1</th>
+<td colspan="1">
+<div id="STP-0064--html" class=""><p>El actor     <a href="#ACT-0002">Cliente (ACT-0002)</a>     entra en su perfil</p></div>
+</td>
+</tr>
+<tr id="STP-0065">
+<th class="step_number">2</th>
+<td colspan="1">
+<div id="STP-0065--html" class=""><p>El actor     <a href="#ACT-0002">Cliente (ACT-0002)</a>     selecciona eliminar perfil</p></div>
+</td>
+</tr>
+<tr id="STP-0066">
+<th class="step_number">3</th>
+<td colspan="1">
+<div id="STP-0066--html" class=""><p>El sistema elimina al <a href='#GLO-0027' class="rem_ref">cliente</a> del registro</p></div>
+</td>
+</tr>
+<tr>
+<th>Postcondición</th>
+<td colspan="2">
+<div id="UC-0009-postcondition-html" class=""><p><a href='#GLO-0027' class="rem_ref">Cliente</a> borrado del registro</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="2">
+<div id="UC-0009-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<h2 id="SEC-0036" class="section">6.3 Requisitos funcionales del sistema</h2>
+<h3 id="SEC-0037" class="section">6.3.1 Requisitos de información del sistema</h3>
+<div id="IRQ-0001">
+<table class="information_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/informationRequirement.png" /> IRQ-0001</th>
+<th class="name_column" colspan="2">Información del cliente</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="2">1.0 (08/11/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="2">
+<div id="IRQ-0001-relevantConcept-html" class="relevant_concept"><p>El sistema deberá almacenar la información correspondiente a los usuarios. En concreto:</p></div>
+</td>
+</tr>
+<tr>
+<th>Datos específicos</th>
+<td colspan="2">
+<ul class="specific_data">
+<li id="DAT-0001">
+<span id="DAT-0001-description-html" class="">Nombre</span>
+</li>
+<li id="DAT-0002">
+<span id="DAT-0002-description-html" class="">Apellidos</span>
+</li>
+<li id="DAT-0003">
+<span id="DAT-0003-description-html" class="">Email </span>
+</li>
+<li id="DAT-0004">
+<span id="DAT-0004-description-html" class="">DNI</span>
+</li>
+<li id="DAT-0005">
+<span id="DAT-0005-description-html" class="">Fecha de nacimiento</span>
+</li>
+<li id="DAT-0006">
+<span id="DAT-0006-description-html" class="">Teléfono</span>
+</li>
+<li id="DAT-0007">
+<span id="DAT-0007-description-html" class="">Dirección</span>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="2">vital</td>
+</tr>
+<tr>
+<th>Urgencia</th>
+<td colspan="2">inmediatamente</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="2">
+<div id="IRQ-0001-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="IRQ-0002">
+<table class="information_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/informationRequirement.png" /> IRQ-0002</th>
+<th class="name_column" colspan="2">Información de los encargos</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="2">1.0 (08/11/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="2">
+<div id="IRQ-0002-relevantConcept-html" class="relevant_concept"><p>El sistema deberá almacenar la información correspondiente a los encargos. En concreto:</p></div>
+</td>
+</tr>
+<tr>
+<th>Datos específicos</th>
+<td colspan="2">
+<ul class="specific_data">
+<li id="DAT-0009">
+<span id="DAT-0009-description-html" class="">Fecha de encargo</span>
+</li>
+<li id="DAT-0010">
+<span id="DAT-0010-description-html" class="">Fecha de entrega</span>
+</li>
+<li id="DAT-0011">
+<span id="DAT-0011-description-html" class="">ID encargo</span>
+</li>
+<li id="DAT-0012">
+<span id="DAT-0012-description-html" class="">Descripción</span>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="2">vital</td>
+</tr>
+<tr>
+<th>Urgencia</th>
+<td colspan="2">inmediatamente</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="2">
+<div id="IRQ-0002-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="IRQ-0003">
+<table class="information_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/informationRequirement.png" /> IRQ-0003</th>
+<th class="name_column" colspan="2">Información de la linea de encargo</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="2">1.0 (08/11/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="2">
+<div id="IRQ-0003-relevantConcept-html" class="relevant_concept"><p>El sistema deberá almacenar la información correspondiente a la linea de encargo. En concreto:</p></div>
+</td>
+</tr>
+<tr>
+<th>Datos específicos</th>
+<td colspan="2">
+<ul class="specific_data">
+<li id="DAT-0013">
+<span id="DAT-0013-description-html" class="">Precio Unitario </span>
+</li>
+<li id="DAT-0014">
+<span id="DAT-0014-description-html" class="">Precio Total</span>
+</li>
+<li id="DAT-0015">
+<span id="DAT-0015-description-html" class="">Cantidad</span>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="2">vital</td>
+</tr>
+<tr>
+<th>Urgencia</th>
+<td colspan="2">inmediatamente</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="2">
+<div id="IRQ-0003-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="IRQ-0004">
+<table class="information_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/informationRequirement.png" /> IRQ-0004</th>
+<th class="name_column" colspan="2">Información sobre los proovedores</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="2">1.0 (08/11/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="2">
+<div id="IRQ-0004-relevantConcept-html" class="relevant_concept"><p>El sistema deberá almacenar la información correspondiente a los proovedores. En concreto:</p></div>
+</td>
+</tr>
+<tr>
+<th>Datos específicos</th>
+<td colspan="2">
+<ul class="specific_data">
+<li id="DAT-0016">
+<span id="DAT-0016-description-html" class="">Nombre de la empresa</span>
+</li>
+<li id="DAT-0017">
+<span id="DAT-0017-description-html" class="">Contacto de la empresa</span>
+</li>
+<li id="DAT-0018">
+<span id="DAT-0018-description-html" class="">Dirección</span>
+</li>
+<li id="DAT-0019">
+<span id="DAT-0019-description-html" class="">Teléfono</span>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="2">vital</td>
+</tr>
+<tr>
+<th>Urgencia</th>
+<td colspan="2">inmediatamente</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="2">
+<div id="IRQ-0004-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="IRQ-0005">
+<table class="information_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/informationRequirement.png" /> IRQ-0005</th>
+<th class="name_column" colspan="2">información del producto</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="2">1.0 (08/11/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="2">
+<div id="IRQ-0005-relevantConcept-html" class="relevant_concept"><p>El sistema deberá almacenar la información correspondiente a los productos. En concreto:</p></div>
+</td>
+</tr>
+<tr>
+<th>Datos específicos</th>
+<td colspan="2">
+<ul class="specific_data">
+<li id="DAT-0020">
+<span id="DAT-0020-description-html" class="">ID</span>
+</li>
+<li id="DAT-0021">
+<span id="DAT-0021-description-html" class="">Nombre</span>
+</li>
+<li id="DAT-0022">
+<span id="DAT-0022-description-html" class="">Precio</span>
+</li>
+<li id="DAT-0023">
+<span id="DAT-0023-description-html" class="">IVA</span>
+</li>
+<li id="DAT-0024">
+<span id="DAT-0024-description-html" class="">PrecioIVA</span>
+</li>
+<li id="DAT-0025">
+<span id="DAT-0025-description-html" class="">Cantidad</span>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="2">vital</td>
+</tr>
+<tr>
+<th>Urgencia</th>
+<td colspan="2">inmediatamente</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="2">
+<div id="IRQ-0005-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="IRQ-0006">
+<table class="information_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/informationRequirement.png" /> IRQ-0006</th>
+<th class="name_column" colspan="2">Información de los pedidos</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="2">1.0 (08/11/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="2">
+<div id="IRQ-0006-relevantConcept-html" class="relevant_concept"><p>El sistema deberá almacenar la información correspondiente a los pedidos. En concreto:</p></div>
+</td>
+</tr>
+<tr>
+<th>Datos específicos</th>
+<td colspan="2">
+<ul class="specific_data">
+<li id="DAT-0026">
+<span id="DAT-0026-description-html" class="">Fecha del pedido</span>
+</li>
+<li id="DAT-0027">
+<span id="DAT-0027-description-html" class="">Fecha de entrega</span>
+</li>
+<li id="DAT-0028">
+<span id="DAT-0028-description-html" class="">Estado del pedido</span>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="2">
+<div id="IRQ-0006-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="IRQ-0007">
+<table class="information_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/informationRequirement.png" /> IRQ-0007</th>
+<th class="name_column" colspan="2">Información de la linea de pedido</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="2">1.0 (08/11/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="2">
+<div id="IRQ-0007-relevantConcept-html" class="relevant_concept"><p>El sistema deberá almacenar la información correspondiente a la linea de pedido. En concreto:</p></div>
+</td>
+</tr>
+<tr>
+<th>Datos específicos</th>
+<td colspan="2">
+<ul class="specific_data">
+<li id="DAT-0029">
+<span id="DAT-0029-description-html" class="">ID</span>
+</li>
+<li id="DAT-0030">
+<span id="DAT-0030-description-html" class="">Cantidad</span>
+</li>
+<li id="DAT-0031">
+<span id="DAT-0031-description-html" class="">Precio Unitario</span>
+</li>
+<li id="DAT-0032">
+<span id="DAT-0032-description-html" class="">Precio Total</span>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="2">
+<div id="IRQ-0007-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="IRQ-0008">
+<table class="information_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/informationRequirement.png" /> IRQ-0008</th>
+<th class="name_column" colspan="2">Información de las ofertas</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="2">1.0 (08/11/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="2">
+<div id="IRQ-0008-relevantConcept-html" class="relevant_concept"><p>El sistema deberá almacenar la información correspondiente a las ofertas. En concreto:</p></div>
+</td>
+</tr>
+<tr>
+<th>Datos específicos</th>
+<td colspan="2">
+<ul class="specific_data">
+<li id="DAT-0034">
+<span id="DAT-0034-description-html" class="">Descripción</span>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="2">
+<div id="IRQ-0008-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="IRQ-0009">
+<table class="information_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/informationRequirement.png" /> IRQ-0009</th>
+<th class="name_column" colspan="2">Información de las lineas de oferta</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="2">1.0 (08/11/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="2">
+<div id="IRQ-0009-relevantConcept-html" class="relevant_concept"><p>El sistema deberá almacenar la información correspondiente a las lineas de oferta. En concreto:</p></div>
+</td>
+</tr>
+<tr>
+<th>Datos específicos</th>
+<td colspan="2">
+<ul class="specific_data">
+<li id="DAT-0035">
+<span id="DAT-0035-description-html" class="">Descuento</span>
+</li>
+<li id="DAT-0036">
+<span id="DAT-0036-description-html" class="">Precio con descuento</span>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="2">
+<div id="IRQ-0009-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<h3 id="SEC-0038" class="section">6.3.2 Requisitos de regla de negocio del sistema</h3>
+<div id="CRQ-0001">
+<table class="constraint_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/constraintRequirement.png" /> CRQ-0001</th>
+<th class="name_column" colspan="1">Stock bajo</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (08/11/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="CRQ-0001-description-html" class=""><p>El sistema deberá respetar la siguiente regla de negocio o restricción: Si el stock esta por debajo de cierta cantidad definida, se mandara una alerta para que se reponga dicho producto..</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="CRQ-0001-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="CRQ-0002">
+<table class="constraint_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/constraintRequirement.png" /> CRQ-0002</th>
+<th class="name_column" colspan="1">Cantidad insuficiente de producto</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (08/11/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="CRQ-0002-description-html" class=""><p>El sistema deberá respetar la siguiente regla de negocio o restricción: Si un <a href='#GLO-0027' class="rem_ref">cliente</a> hace un pedido en el cual se sobrepasa la cantidad del producto que hay en stock, la cantidad se volvera negativa..</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="CRQ-0002-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="CRQ-0003">
+<table class="constraint_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/constraintRequirement.png" /> CRQ-0003</th>
+<th class="name_column" colspan="1">Cliente registrado</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (08/11/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="CRQ-0003-description-html" class=""><p>El sistema deberá respetar la siguiente regla de negocio o restricción: El <a href='#GLO-0027' class="rem_ref">cliente</a> debe estar registrado para relaizar un pedido.</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="CRQ-0003-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<h3 id="SEC-0039" class="section">6.3.3 Requisitos de conducta del sistema</h3>
+<div id="FRQ-0001">
+<table class="functional_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/functionalRequirement.png" /> FRQ-0001</th>
+<th class="name_column" colspan="1">lista de productos</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (08/11/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="FRQ-0001-description-html" class=""><p>El sistema deberá generar una lista con todos los productos registrados.</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="FRQ-0001-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="FRQ-0002">
+<table class="functional_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/functionalRequirement.png" /> FRQ-0002</th>
+<th class="name_column" colspan="1">lista de clientes</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (08/11/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="FRQ-0002-description-html" class=""><p>El sistema deberá generar una lista con todos los clientes registrados.</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="FRQ-0002-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="FRQ-0003">
+<table class="functional_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/functionalRequirement.png" /> FRQ-0003</th>
+<th class="name_column" colspan="1">lista de ofertas</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (08/11/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="FRQ-0003-description-html" class=""><p>El sistema deberá generar una lista con todas los ofertas disponibles.</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="FRQ-0003-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="FRQ-0004">
+<table class="functional_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/functionalRequirement.png" /> FRQ-0004</th>
+<th class="name_column" colspan="1">lista de encargos</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (08/11/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="FRQ-0004-description-html" class=""><p>El sistema deberá generar una lista con todos los encargos realizados.</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="FRQ-0004-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="FRQ-0005">
+<table class="functional_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/functionalRequirement.png" /> FRQ-0005</th>
+<th class="name_column" colspan="1">lista de proovedores</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (08/11/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="FRQ-0005-description-html" class=""><p>El sistema deberá generar una lista con todos los proovedores registrados.</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="FRQ-0005-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="FRQ-0006">
+<table class="functional_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/functionalRequirement.png" /> FRQ-0006</th>
+<th class="name_column" colspan="1">lista de pedidos</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (08/11/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="FRQ-0006-description-html" class=""><p>El sistema deberá generar una lista con todos los pedidos realizados.</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="FRQ-0006-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<h2 id="SEC-0040" class="section">6.4 Requisito no funcionales del sistema</h2>
+<h3 id="SEC-0041" class="section">6.4.1 Requisitos de fiabilidad del sistema</h3>
+<h3 id="SEC-0042" class="section">6.4.2 Requisitos de usabilidad del sistema</h3>
+<h3 id="SEC-0043" class="section">6.4.3 Requisitos de mantenibilidad del sistema</h3>
+<h3 id="SEC-0044" class="section">6.4.4 Requisito de eficiencia del sistema</h3>
+<h3 id="SEC-0045" class="section">6.4.5 Requisitos de portabilidad del sistema</h3>
+<h3 id="SEC-0046" class="section">6.4.6 Requisitos de seguridad del sistema</h3>
+<h3 id="SEC-0047" class="section">6.4.7 Otros requisitos no funcionales del sistema</h3>
+<h2 id="SEC-0048" class="section">6.5 Restricciones tecnicas del sistema</h2>
+<h2 id="SEC-0049" class="section">6.6 Requisitos de integración del sistema</h2>
+<h2 id="SEC-0050" class="section">6.7 Información de trazabilidad</h2>
+<h1 id="SEC-0026" class="appendix">A Actas de reuniones</h1>
+<div id="MET-0001">
+<table class="meeting remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/meeting.png" /> Reunión</th>
+<th class="name_column" colspan="1">Reunión 1</th>
+</tr>
+</thead>
+<tr>
+<th>Fecha</th>
+<td colspan="1">11/10/2021</td>
+</tr>
+<tr>
+<th>Hora</th>
+<td colspan="1">15:18</td>
+</tr>
+<tr>
+<th>Lugar</th>
+<td colspan="1">
+<span id="MET-0001-place-html" class="">Casa particular</span>
+</td>
+</tr>
+<tr>
+<th>Asistentes</th>
+<td colspan="1">
+<ul class="stakeholders">
+<li>
+<a href="#STK-0002">Navarro Rivera,Álvaro</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>Resultados</th>
+<td colspan="1">
+<div id="MET-0001-results-html" class=""><p>En esta primera reunión nos reunimos con el gerente de la empresa que nos explico el funcionamiento de esta, la jerarquía, el sistema de ventas, la contabilidad.</p>
+<p>Tambien nos hablo de los problemas que veía en la empresa como la falta de un sistema informático o el anticuado sistema de facturación, y tambien los cambios que estaba pensando realizar, implementar una PDA para realizar los pedidos.</p>
+<p>La entrevista duro alrededor de 1 hora y media.</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="MET-0001-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="MET-0002">
+<table class="meeting remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/meeting.png" /> Reunión</th>
+<th class="name_column" colspan="1">Reunion 2 Administración</th>
+</tr>
+</thead>
+<tr>
+<th>Fecha</th>
+<td colspan="1">23/10/2021</td>
+</tr>
+<tr>
+<th>Hora</th>
+<td colspan="1">13:22</td>
+</tr>
+<tr>
+<th>Lugar</th>
+<td colspan="1">
+<span id="MET-0002-place-html" class="">Videollamada</span>
+</td>
+</tr>
+<tr>
+<th>Asistentes</th>
+<td colspan="1">
+<ul class="stakeholders">
+<li>
+<a href="#STK-0002">Navarro Rivera,Álvaro</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>Resultados</th>
+<td colspan="1">
+<div id="MET-0002-results-html" class=""><p>En esta reunión nos reunimos con una empleada de administración.</p>
+<p>Nos resolvió dudas surgidas en la entrevista anterior, sobre el sistema de cobro, que pasaba si un <a href='#GLO-0027' class="rem_ref">cliente</a> no pagaba a tiempo, etc...</p>
+<p>Tambien nos comento algunos problemas relacionados con contabilidad como el exceso de papel dentro de la empresa, lo que resulta en mucho espacio ocupado por papeleo practicamente inutil.</p>
+<p>Nos habló del software y hardware de la empresa, de su complejidad y como se utiliza. Ademas señalo lagunas ventajas y desventajas.</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="MET-0002-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
 </div>
 <h1 id="SEC-0027" class="appendix">B Documentación relevante</h1>
 <h1 id="SEC-0028" class="appendix">C Glosario de acrónimos y abreviaturas</h1>
