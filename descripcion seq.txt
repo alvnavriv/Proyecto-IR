@@ -1,0 +1,37 @@
+Administrar ofertas:El usuario inicia sesión con sus datos.Posteriormente,el sistema mostrará la lista de ofertas aplicables en ese momento.
+el sistema brinda también la posibilidad de añadir una oferta en el sistema si se introducen los datos que correspondan.
+
+
+
+Administrar productos:El usuario inicia sesión con sus datos.El sistema mostrará el catálogo de productos no descatalogados,y a priori,se podrán descatalogar productos
+o bien añadir nuevos al sistema con unos datos que hay qye brindar al sistema
+
+
+
+Administrar clientes:El usuario inicia sesión con sus datos.El sistema mostrará la lista de los clientes de la empresa,y posteriormente,se podrá añadir o bien modificar clientes a la lista.
+
+
+
+Amdministrar facturas:El usuario inicia sesión con sus datos.El sistema permitirá al usuario generar una factura,compuesta por los albaranes/pedidos que el usuario eliga y que estén guardados en el sistema.
+Posteriormente,el sistema ofrece la opción de mostrar la lista de facturas generadas previamente.
+
+
+
+Administrar rutas:El usuario inicia sesión con sus datos.El usuario podrá añadir destinos a la cola para generar la ruta mas corta al destino.
+El sistema tabmién ofrece la opción de eliminar destino y recalcular la ruta. 
+
+
+
+Administrar proveedores:El usuario inicia sesión con sus datos.El sistema mostrará la lista de proveedores de la empresa.Tras esto,el sistema ofrecerá sus servicios,
+entre los que se incluye añadir proveedor y marcar como inactivo.
+
+Administrar pedidos:El usuario inicia sesión con sus datos.El sistema mostrará la lista de pedidos de la empresa.Tras esto,se podrá añadir pedidos a la lista
+
+
+
+Iniciar Sesión:El sistema mostrará un formulario que pedirá datos de autentificación de usuario.Una vez que se introducen y se verifican que son correctos,
+el sistema permitirá el acceso al usuario,pudiendo utilizar los servicios que ofrece.
+
+
+
+Registro:El sistema mostrará un formulario que pedirá los datos de autentificación del nuevo usuario,que posteriormente será guardado en el sistema con sus datos correspondientes.
